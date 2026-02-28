@@ -1,7 +1,7 @@
 def filter_numbers(numbers, threshold = 0, greater = True):
     k = []
     if not numbers:
-        return None
+        return []
     if greater:
         for i in numbers:
             if i > threshold:
